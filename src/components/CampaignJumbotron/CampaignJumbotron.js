@@ -8,9 +8,9 @@ const CampaignJumbotron = () => {
     <div className="campaign-jumbotron">
       <h1>DONATION CAMPAIGN</h1>
       <div className="campaign-icons-container">
-        <FaRegWindowMinimize className="campaign-icon" />
+        <FaRegWindowMinimize className="campaign-icon-line" />
         <MdBloodtype className="campaign-icon" />
-        <FaRegWindowMinimize className="campaign-icon" />
+        <FaRegWindowMinimize className="campaign-icon-line" />
       </div>
       <p>Campaigns to encourage new donors to join and existing donors to continue to give blood.</p>
     </div>

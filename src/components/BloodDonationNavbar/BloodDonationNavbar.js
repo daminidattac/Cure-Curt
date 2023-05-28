@@ -1,5 +1,4 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaGooglePlus, FaYoutube } from "react-icons/fa";
 import "./BloodDonationNavbar.css";
 
 export default function BloodDonationNavbar() {
@@ -39,13 +38,6 @@ export default function BloodDonationNavbar() {
             </a>
           </li>
         </ul>
-        <div className="bd-navbar-social-icons">
-          <FaFacebook className="bd-navbar-social-icon" />
-          <FaInstagram className="bd-navbar-social-icon" />
-          <FaTwitter className="bd-navbar-social-icon" />
-          <FaGooglePlus className="bd-navbar-social-icon" />
-          <FaYoutube className="bd-navbar-social-icon" />
-        </div>
       </div>
     </nav>
   );

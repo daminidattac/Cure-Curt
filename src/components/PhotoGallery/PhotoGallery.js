@@ -9,9 +9,9 @@ const PhotoGallery = () => {
     <><div className="photo-gallery-title">
           <h1>PHOTO GALLERY</h1>
           <div className="photo-gallery-icons-container">
-        <FaRegWindowMinimize className="photo-gallery-icon" />
-        <MdBloodtype className="photo-gallery-icon3" />
-        <FaRegWindowMinimize className="photo-gallery-icon" />
+        <FaRegWindowMinimize className="photo-gallery-icon-line" />
+        <MdBloodtype className="photo-gallery-icon" />
+        <FaRegWindowMinimize className="photo-gallery-icon-line" />
       </div>
       </div><div className="photo-gallery-paragraph">
               <p>Campaign photos of different parts of world and our prestigious voluntary work.</p>

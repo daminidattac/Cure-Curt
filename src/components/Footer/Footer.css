@@ -28,6 +28,7 @@
   flex-basis: 15%;
 }
 
+
 .footer-logo {
   width: 80px;
   margin-bottom: 30px;
@@ -46,17 +47,24 @@
   margin: 30px 0;
 }
 
-ul li {
+.your-ul-class {
   list-style: none;
-  margin-bottom: 12px;
 }
 
-ul li a {
+.your-ul-class li {
+  margin-bottom: 12px;
+  
+}
+
+
+.your-ul-class li a {
   text-decoration: none;
   color: white;
 }
-
-form {
+.your-ul-class li a:hover {
+  color: antiquewhite;
+}
+.footer-form {
   padding-bottom: 15px;
   display: flex;
   align-items: center;
@@ -65,13 +73,13 @@ form {
   margin-bottom: 50px;
 }
 
-form .footer-icon {
+.footer-form .footer-icon {
   font-size: 18px;
   margin-right: 10px;
   color: #ccc;
 }
 
-form input {
+.footer-form input {
   width: 100%;
   background: transparent;
   color: #ccc;
@@ -79,14 +87,14 @@ form input {
   outline: none;
 }
 
-form button {
+.footer-form button {
   background: transparent;
   border: 0;
   outline: none;
   cursor: pointer;
 }
 
-form button .footer-icon {
+.footer-form button .footer-icon {
   font-size: 16px;
   color: #ccc;
 }
@@ -104,7 +112,7 @@ form button .footer-icon {
   cursor: pointer;
 }
 
-hr {
+.footer-divider {
   width: 90%;
   border: 0;
   border-bottom: 1px solid #ccc;

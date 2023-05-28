@@ -10,7 +10,7 @@ const Accordion = () => {
  
   <>
   <section className="main-div">
-    <h1>What The FAQs</h1>
+    <h1>Frequently Asked Questions</h1>
 
   
   {

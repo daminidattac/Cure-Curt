@@ -1,75 +1,108 @@
-.blood-bank-slider-main{
-  margin-top: 50px !important;
-  padding: 50px 20px;
-  background-image: linear-gradient(
-    rgba(56, 54, 54, 0.4),
-    rgba(56, 54, 54, 0.4)
-  ),url('../BloodBankCarouselImages/carousel_backgound.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 690px;
-  width: 100%;
+.blood-bankcarousel {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+}
+.blood-bank-image-overlay {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  right: 90px;
+  bottom: 90px;
+  background-color: white;
+  border: 15px inset rgba(145, 0, 0, 0.5);
+  border-radius: 10px;
+  opacity: 0.85;
 }
 
-.slider {
-    position: relative;
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-    /* padding: 20px; */
-    /* margin-top: 100px; */
-  } 
-  
-  .slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    opacity: 0;
-    transition: opacity 2s ease-in-out;
-  }
-  
-  .slide.active {
-    opacity: 0.7;
-  }
-  
-  .slider-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 3em;
-    background-color: rgba(56, 54, 54, 0.4);
-    color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    z-index: 1;
-  }
-  
-  .previous {
-    left: 20px;
-    padding:0 15px 13px 15px;
-  }
-  
-  .next {
-    right: 20px;
-    padding:0 15px 13px 15px;
-  }
-  
-  .button-group {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  .previous:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+.bb-carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.bb-carousel-slide.active {
+  opacity: 1;
+}
+.bb-carousel-caption{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+color: #000000;
+padding: 210px;
+flex-direction: column;
+align-items: center;  
+display: flex;
+  justify-content: center;
+}
+.bb-carousel-caption h5{
+  text-shadow: 3px 2px 5px rgba(255, 10, 10, 0.207);
+  font-size: 39px;
+  font-weight: 700;
+}
+
+.bb-donate-button {
+  margin-top: 20px;
+  padding: 10px 10px;
+  font-size: 18px;
+  background-color: #d60000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.bb-donate-button {
+  transition-duration: 0.4s;
+}
+
+.bb-donate-button:hover {
+  background-color:  rgb(255, 6, 6);
+  color: white;
+}
+
+.bb-join-button {
+  margin-top: 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #d60000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.bb-join-button {
+  transition-duration: 0.4s;
+}
+.bb-join-button:hover{
+  background-color: rgb(255, 6, 6);
+  color: white;
+}
+.bb-prev-button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: rgb(90, 8, 8);
+  color: rgb(18, 11, 11);
+  font-size: 24
+}
+.bb-next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: rgb(90, 8, 8);
+  color: rgb(18, 11, 11);
+  font-size: 24
 }

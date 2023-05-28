@@ -47,18 +47,6 @@
     font-weight: 500;
     padding: 10px;
   }
-  
-  .bd-navbar-social-icon {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  .bd-navbar-social-icon {
-    font-size: 24px;
-    margin-left: 10px;
-    color: #333;
-  }
   .blood-donation-navbar-container {
     display: flex;
     justify-content: space-between;
@@ -71,18 +59,5 @@
     margin-right: 20px;
     font-size: 1.5rem;
     font-weight: bold;
-  }
-  
-  .bd-navbar-social-icons {
-    display: flex;
-  }
-  
-  .bd-navbar-social-icon {
-    font-size: 1.2rem;
-    margin-right: 10px;
-  }
-  
-  .blood-donation-navbar-logo {
     margin-left: 0;
   }
-    

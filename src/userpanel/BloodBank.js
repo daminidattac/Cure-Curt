@@ -13,7 +13,11 @@ import PhotoGallery from '../components/PhotoGallery/PhotoGallery';
 import Footer from '../components/Footer/Footer';
 import BloodDonationNavbar from '../components/BloodDonationNavbar/BloodDonationNavbar';
 import CardImage from '../components/CardImage';
+import RegisterForm from '../components/RegisterForm/RegisterForm';
 import CardGrid from '../components/CardGrid';
+import JoinUs from '../components/JoinUs/JoinUs';
+import Accordion from '../components/accordion/Accordion';
+import DataAndChart from '../components/Chart/DataAndChart';
 // https:localhost/admin/******/ -kaushik
 // https:localhost/pharamacy-vendor/********/  -kaushik
 // https:localhost/blood-bank/*******/   - damini
@@ -39,6 +43,10 @@ function BloodBank() {
         <Campaign />
         <PhotoGallery />
         <SponsorsSection />
+        <JoinUs/>
+        <RegisterForm/>
+        <Accordion/>
+        <DataAndChart/>
         <Footer />
       </div>
   );

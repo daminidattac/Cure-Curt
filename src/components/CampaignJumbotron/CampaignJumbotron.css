@@ -12,13 +12,12 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
   }
   
   .campaign-jumbotron p {
     margin-top: -90px;
     font-size: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
    
   }
   .campaign-icons-container {
@@ -27,6 +26,10 @@
     align-items: center;
     justify-content: center;
     
+  }
+  .campaign-icon-line{
+    margin-bottom: 10px;
+    fill: #ff0000;
   }
   
   .campaign-icon {
